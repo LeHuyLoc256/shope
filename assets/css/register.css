@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: auto;
+    height: 85px;
+    box-shadow: 0 6px 6px rgba(0,0,0,.06);
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-img {
+    cursor: pointer;
+}
+
+.navbar-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar-item {
+    color: #222;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.help {
+    color: #ee4d2d;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.register {
+    height: 600px;
+    width: auto;
+    background-color: rgb(255, 235, 225);
+}
+
+.register__body {
+    width: 1040px;
+    min-height: 600px;
+    background-image: url(img/sales.png);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.form_body {
+    height: 450px;
+    width: 1040px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+.form {
+    width: 400px;
+    height: 450px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.14);
+    border-radius: 4px;
+}
+
+.form__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.form__heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px;
+}
+
+.heading {
+    font-size: 22.5px;
+    color: #222;
+}
+
+.form__content {
+    padding: 0 30px 30px;
+}
+
+.form__form {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.14);
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 rgba(0,0,0,.02);
+    margin-bottom: 30px;
+}
+
+.form__input:hover {
+    border: 1px solid black;
+}
+
+.input__phone{
+    padding: 12px;
+    outline: none;
+    border: 0;
+    flex: 1;
+    flex-shrink: 0;
+    filter: none;
+    opacity: 0.7;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    font-size: 15.75px;
+    color: #ffffff;
+    background-color: #ee4d2d;
+    padding: 0 11.25px;
+    opacity: 0.7;
+    border-color: #ee4d2d;
+    margin-bottom: 30px;
+}
+
+.cnt-social {
+    margin-top: 115px;
+}
+
+.connect {
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+    flex: 1;
+}
+
+.or {
+    color: #ccc;
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: 13.5px;
+}
+
+.auth-form__socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-icon {
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.26);
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    padding: 0 2px;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    font-size: 15.75px;
+    margin: 5px;
+}
+
+.form-policy {
+    padding: 0 28.125px;
+    margin-right: 6px;
+    margin-top: 25px;
+    font-size: 12px;
+    color: rgba(0,0,0,.87);
+    text-align: center;
+}
+
+.form-policy-link {
+    text-decoration: none;
+    color: #ee4d2d;
+}
+
+.login {
+    margin-bottom: 30px;
+}
+
+.login-text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+.acc {
+    white-space: pre;
+    padding-right: 4px;
+    color: rgba(0,0,0,.26);
+}
+
+.login-link {
+    color: #ee4d2d;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #f5f5f5;
+}
+
+.information {
+    width: 1450px;
+    margin: auto;
+}
+
+.infor__detail {
+    display: flex;
+    margin: 0px;
+    padding: 6px;
+    width: 100%;
+    min-width: 1200px;
+    align-items: flex-start;
+}
+
+.block {
+    width: 300px ;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.title__block {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(0,0,0,.87);
+    margin-bottom: 22.5px;
+    margin-top: 45px;
+}
+
+.detail__block {
+    text-decoration: none;
+    display: block;
+    color: rgba(0,0,0,.65);
+    list-style-type: none;
+    margin: 0 0 14px;
+    padding: 0;
+}
+
+.line__block {
+    font-size: 14px;
+    margin-bottom: 14px;
+} 
+
+.name__line {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.donors_containrt {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.donor_detail {
+    width: 67.5px;
+    height: 33px;
+    margin-bottom: 9px;
+    margin-right: 9px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 1px;
+}
+
+.donor_name {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    text-decoration: none;
+    display: block;
+    color: rgba(0,0,0,.65);
+    list-style-type: none;
+    margin: 0 0 18px;
+    padding: 0;
+}
+
+.sociail__link {
+    font-size: 13.5px;
+    margin-bottom: 13.5px;
+    display: flex;
+} 
+
+.link {
+    text-decoration: none;
+    color: rgba(0,0,0,.65);
+    overflow: hidden;
+    display: flex;
+}
+
+.logo {
+    height: 18px;
+    width: 18px;
+    margin-right: 9px;
+}
+
+.name__social {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.app_block {
+    width: 100%;
+    margin-bottom: 13.5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.qr__code {
+    height: 104px;
+    width: 100px;
+    margin-right: 13.5px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    border-radius: 2px;
+}
+
+.app_container {
+    width: 86px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.app {
+    width: 86px;
+    height: 28px;
+    margin-bottom: 5px;
+    padding: 3px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.national {
+    justify-content: space-between;
+    color: rgba(0,0,0,.54);
+    padding: 45px 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.rules {
+    flex-shrink: 0;
+    margin-right: 25px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.list_countries {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.country__area {
+    flex: 1 0 auto;
+    text-align: right;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.countries_detail {
+    padding: 0 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.name_contry {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 18px;
+    font-size: 15px;
+}
+
+.location {
+    font-size: 13.5px;
+    color: rgba(0,0,0,.65);
+    padding: 47px 0 41.5px;
+    background: #f5f5f5;
+}
+
+.location_body {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.list__policy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.policy_detail {
+    padding: 0 28px;
+    border-right: 1px solid rgba(0,0,0,.09);
+    text-transform: uppercase;
+    font-size: 13.5px;
+}
+
+.policy_name {
+    text-decoration: none;
+    display: block;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.list__certicifate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.certicifate {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0 20px;
+}
+
+.photo_certicifate {
+    width: 135px;
+    height: 50px;
+}
+
+.company {
+    margin-bottom: 28px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.address {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.manager {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.code {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.shopee {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 9px; 
+}
